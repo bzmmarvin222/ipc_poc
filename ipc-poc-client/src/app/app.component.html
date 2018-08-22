@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Received IPC Messages:
+  </h1>
+</div>
+<ul>
+  <li *ngFor="let msg of msgs$ | async">
+    {{msg}}
+  </li>
+</ul>
+
